@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>229</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>70</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dB：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_dBtoAp">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>150</y>
+     <width>120</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>计算放大倍数</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_dB2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>70</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>82</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dB转放大倍数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_AptodB">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>150</y>
+     <width>85</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>计算dB</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>30</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>dB：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>65</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>放大倍数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_dB1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>110</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>82</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>放大倍数转dB</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Ap1">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>65</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>放大倍数：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Ap2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>110</y>
+     <width>125</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
