@@ -5,7 +5,8 @@ from PyQt5.uic import loadUi
 import math
 import sys
 
-ui_file = '/Users/xuqilin/Cogenda/python测试/运算放大器放大倍数与分贝转换器/运算放大器放大倍数与分贝转换器.ui'
+#换成自己对应目录下的UI文件
+ui_file = '运算放大器放大倍数与分贝转换器/运算放大器放大倍数与分贝转换器.ui'
 
 
 class MainWindow(QWidget):
